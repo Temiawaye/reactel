@@ -4,6 +4,10 @@
  useState() = A React hook that allows the creation of a stateful variable AND a setter 
               function to update its value in the virual DOM.
               [name, setName]
+
+ Updater function = A function passed as an argument to setState()
+                     usually ex. setYear(arrow function)
+                     Allow for safe update based on the previous state used with multiple state updates and asynchronous functions Good practice to use updater functions
 */
 
 

@@ -1,15 +1,15 @@
 import MyComponent from './MyComponent.jsx';
-import Counter from './Counter.jsx';
+import Conter from './Counter.jsx';
 import OnChange from './OnChange.jsx';
 import ColorPicker from './ColorPicker.jsx';
+import SecComponent from './SecComponent.jsx';
 
 function App() {
 
 
   return (
     <>
-      <OnChange />
-      <ColorPicker />
+      <SecComponent/>
     </>
   )
 }

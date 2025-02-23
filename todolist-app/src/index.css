@@ -1,0 +1,77 @@
+body{
+  background-color: #2f2d2d;
+  text-align: center;
+}
+
+.hed {
+  font: Arial, Helvetica, sans-serif;
+}
+
+.hed h1 {
+  color: #ffffff;
+  font-size: 4em;
+  margin-bottom: 0;
+}
+
+.hed input[type="text"] {
+  width: 200px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid hsla(0, 0, 80%, 0.5);
+  border-radius: 5px;
+  /* background-color: #ffffff; */
+  color: #000000;
+  font-size: 1em;
+}
+
+button {
+  width: 80px;
+  height: 23px;
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.5 ease;
+}
+
+.hed button{
+  background-color: yellowgreen;
+  margin-left: 10px;
+}
+
+.hed button:hover {
+  background-color: darkolivegreen;
+}
+
+ol{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+
+li {
+  width: 60%;
+  margin-bottom: 10px;
+  background-color: pink;
+  padding: 15px;
+  border: 3px solid hsl(0, 0, 80%);
+  border-radius: 5px;
+  align-items: center;
+  display: flex;
+}
+
+.deletebtn{
+ background-color: rgba(255, 0, 0, 0.724);
+ margin: 0 5px;
+}
+
+.movebtn{
+ background-color: rgba(0, 0, 255, 0.704);
+ margin: 0 5px;
+}
+
+.text{
+  flex: 1;
+}

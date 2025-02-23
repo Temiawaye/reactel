@@ -1,3 +1,9 @@
+// Updater function = A function passed as an argument to setState() usually ex. setYear(arrow function)
+//                        Allow for safe update based on the previous state used with 
+//                        multiple state updates and asynchronous functions Good practice to use updater functions
+
+
+
 import React, {useState} from 'react';
 
 function Counter() {
@@ -5,7 +11,12 @@ function Counter() {
     const [count, setCount] = useState(0);
 
     const increment = () => {
-        setCount(count + 1);
+
+        //using the updater function
+
+        setCount(precount => precount + 1);
+        setCount(precount => precount + 1);
+        setCount(precount => precount + 1);
     }
 
     const decrement = () => {
