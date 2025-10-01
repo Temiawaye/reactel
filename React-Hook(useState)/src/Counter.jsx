@@ -15,8 +15,8 @@ function Counter() {
         //using the updater function
 
         setCount(precount => precount + 1);
-        setCount(precount => precount + 1);
-        setCount(precount => precount + 1);
+        // setCount(precount => precount + 1);
+        // setCount(precount => precount + 1);
     }
 
     const decrement = () => {

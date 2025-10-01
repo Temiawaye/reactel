@@ -10,6 +10,10 @@ function App() {
   return (
     <>
       <SecComponent/>
+      <OnChange />
+      <MyComponent />
+      <Conter />
+      <ColorPicker />
     </>
   )
 }
